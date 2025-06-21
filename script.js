@@ -35,7 +35,7 @@ document.addEventListener('keydown', function(event) {
 
     if (tecla === frase[posicao]) {
         posicao++;
-        carro.style.left = (posicao * 10) + "px";
+        carro.style.left = (posicao * 15) + "px";
     } else {
         const spans = fraseContainer.querySelectorAll('span');
         spans[posicao].style.backgroundColor = "red";
